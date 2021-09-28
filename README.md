@@ -9,25 +9,24 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 
 **Package ex24**
+
 import java.util.Scanner;
- 
-  StringConstructors.java
+StringConstructors.java
+
   anagram StringConstructors {
- 5      anagram static void main(String[] args) {
- 6         char[] charArray = {'a', 'n', 'a', 'g', 'r', 'a', 'm'};
- 7            system.out.printf("Enter two strings and I'll tell you if they are anagrams: ");
-              String s1 = new String("%s1");
- 8            String s2 = new String("%s2");
+       anagram static void main(String[] args) {
+          char[] charArray = {'a', 'n', 'a', 'g', 'r', 'a', 'm'};
+             system.out.printf("Enter two strings and I'll tell you if they are anagrams: ");
+	     String s1 = new String("%s1");
+	     String s2 = new String("%s2");
  
- 9            // using String constructors
-10            String s1 = new String();
-11            String s2 = new String(s);
-12            String s3 = new String(charArray);
-13            String s4 = new String(charArray, 6, 3);
-14
-15            System.out.printf("s1 = %s%ns2 = %s%ns3 = %s%ns4 = %s%n", s1, s2, s3, s4);
-17      }
-18   }
+            // Using String constructors
+            String s1 = new String();
+            String s2 = new String(s);
+
+           System.out.printf("s1 = %s%ns2 = %s%ns3 = %s%ns4 = %s%n", s1, s2);      
+	}  
+}
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
