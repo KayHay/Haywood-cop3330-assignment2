@@ -143,3 +143,31 @@ class GFG {
                     + " Guess Again " + guess);
             }
         }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+**Package ex 33**
+
+	import java.util.Random;
+
+	public class Magic8Ball
+	{
+		public static void main ( String[] args )
+		{
+			Random r = new Random();
+
+			int choice = 1 + r.nextInt(15);
+			String response = "";
+			System.out.println(What's your question?);
+			
+			if ( choice == 1 )
+			response = "Ask Again Later";
+			
+			else if ( choice == 2 )
+			response = "Yes";
+			
+			else if ( choice == 3 )
+			response = "No";
+			
+	System.out.println( "The Magic 8 Ball Says: " + response );
+	}
+}
