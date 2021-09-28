@@ -1,10 +1,10 @@
 # Haywood-cop3330-assignment2
 /*
+
  *  UCF COP3330 Fall 2021 Assignment 2 Solution
  *  Copyright 2021 Kaylah Haywood
+
  */
- 
- 
  
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 
@@ -34,7 +34,7 @@ StringConstructors.java
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-**Package ex 25**
+**Package ex25**
 
   import java.io.*;
   import java.util.*;
@@ -73,9 +73,9 @@ class GFG {
             System.out.print(" Weak");
     }
     
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  
- **Package ex 28**
+ **Package ex28**
   
      import java.util.Scanner;
      class sum
@@ -101,7 +101,8 @@ class GFG {
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-**Package ex 32**
+**Package ex32**
+
   import java.util.Scanner;
   
   public class GFG {
@@ -116,7 +117,7 @@ class GFG {
         int i, guess;
         
         System.out.println("Enter the difficulty level (1, 2, or 3): ");
-        System.out.println(I have my number. What's your guess?", %d);
+        System.out.println(I have my number. What's your guess?", " ");
         System.out.println(
             "A number is chosen"
             + " between 1 to 500."
@@ -148,7 +149,7 @@ class GFG {
         }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-**Package ex 33**
+**Package ex33**
 
 	import java.util.Random;
 
