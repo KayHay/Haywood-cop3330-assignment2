@@ -14,12 +14,17 @@ import java.util.Scanner;
 StringConstructors.java
 
   anagram StringConstructors {
-       anagram static void main(String[] args) {
-          char[] charArray = {'a', 'n', 'a', 'g', 'r', 'a', 'm'};
-             system.out.printf("Enter two strings and I'll tell you if they are anagrams: ");
+      
+      anagram static void main(String[] args) {
+          
+	  char[] charArray = {'a', 'n', 'a', 'g', 'r', 'a', 'm'};
+             
+	     system.out.printf("Enter two strings and I'll tell you if they are anagrams: ");
+	     
 	     String s1 = new String("%s1");
 	     String s2 = new String("%s2");
-            // Using String constructors
+           
+	   // Using String constructors
             String s1 = new String();
             String s2 = new String(s);
 
