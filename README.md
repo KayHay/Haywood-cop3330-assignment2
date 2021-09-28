@@ -19,12 +19,11 @@ StringConstructors.java
              system.out.printf("Enter two strings and I'll tell you if they are anagrams: ");
 	     String s1 = new String("%s1");
 	     String s2 = new String("%s2");
- 
             // Using String constructors
             String s1 = new String();
             String s2 = new String(s);
 
-           System.out.printf("s1 = %s%ns2 = %s%ns3 = %s%ns4 = %s%n", s1, s2);      
+           System.out.printf("s1 = %s%ns2 = %s%n", s1, s2);      
 	}  
 }
 
